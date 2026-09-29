@@ -64,4 +64,4 @@ python -X utf8 package.py
 
 `validate.py --english-dir "설치 게임의 원문 번역 폴더"`로 현재 게임의 새 키/삭제된 키도 비교할 수 있습니다. CI는 번역·패처를 검사하고 ZIP을 만듭니다. `v*` 태그를 푸시하면 같은 검사 후 릴리스를 생성합니다. 폰트·외부 구성요소의 출처는 [THIRD_PARTY.md](THIRD_PARTY.md)를 참고하세요.
 
-이 번역은 AI를 활용해 제작되었으며, 완벽하지 않을 수 있습니다.
+.
