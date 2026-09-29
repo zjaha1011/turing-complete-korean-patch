@@ -258,9 +258,9 @@ $83483553172261*
 [color=#bbbbbb]0[/color][color=#ff9800]MM[/color][color=#bbbbbb]0[/color][color=#ff6680]OOOO[/color] [color=#ffe666]DDDD[/color][color=#66ff99]AAAA[/color] [color=#bbbbbb]0000[/color][color=#66ccff]BBBB[/color] [color=#bbbbbb]00000000[/color]
 
 [center]
-[color=#ff9800]M[/color] = 모드             [color=#ffe666]D[/color] = 대상 레지스터
-[color=#ff6680]O[/color] = 연산 코드        [color=#66ff99]A[/color] = 피연산자 A           
-[color=#bbbbbb]0[/color] = 미사용 / 0      [color=#66ccff]B[/color] = 피연산자 B           
+[color=#ff9800]M[/color] = 모드              [color=#ffe666]D[/color] = 대상 레지스터
+[color=#ff6680]O[/color] = 연산 코드          [color=#66ff99]A[/color] = 피연산자 A           
+[color=#bbbbbb]0[/color] = 미사용 / 0        [color=#66ccff]B[/color] = 피연산자 B           
 [/center]
 
 디코더를 사용해 대상 레지스터와 인수 레지스터를 분리하세요. 주의할 점이 있습니다. load 포트와 store 포트는 주소를 바이트 단위로 받지만, 각 레지스터는 4바이트를 차지합니다. 따라서 레지스터의 인덱스가 아니라 주소를 넘겨야 합니다.
@@ -625,11 +625,11 @@ NAND 게이트를 사용해 NOT 게이트를 만드세요
 사용: [b]NAND 게이트[/b]
 입력 0: [F][T][F][T]
 입력 1: [F][F][T][T]
-출력:   [T][T][T][F]
+출력:    [T][T][T][F]
 
 만들 것: [b]NOT 게이트[/b]
-입력:   [T][F]
-출력:   [F][T]
+입력:    [T][F]
+출력:    [F][T]
 
 $56423993638708* 지난 레벨에서는 회로를 설명하는 진리표를 만들었습니다. 이번 레벨에서는 그 진리표대로 동작하는 회로를 만듭니다.
 
@@ -1074,9 +1074,9 @@ $13069282666558*
 [color=#bbbbbb]0[/color][color=#ff9800]MM[/color][color=#bbbbbb]0[/color][color=#ff6680]OOOO[/color] [color=#ffe666]DDDD[/color][color=#66ff99]AAAA[/color] [color=#bbbbbb]0000[/color][color=#66ccff]BBBB[/color] [color=#bbbbbb]00000000[/color]
 
 [center]
-[color=#ff9800]M[/color] = 모드             [color=#ffe666]D[/color] = 대상 레지스터
-[color=#ff6680]O[/color] = 연산 코드        [color=#66ff99]A[/color] = 피연산자 A           
-[color=#bbbbbb]0[/color] = 미사용 / 0      [color=#66ccff]B[/color] = 피연산자 B           
+[color=#ff9800]M[/color] = 모드              [color=#ffe666]D[/color] = 대상 레지스터
+[color=#ff6680]O[/color] = 연산 코드          [color=#66ff99]A[/color] = 피연산자 A           
+[color=#bbbbbb]0[/color] = 미사용 / 0        [color=#66ccff]B[/color] = 피연산자 B           
 [/center]
 
 
@@ -1086,9 +1086,9 @@ $78199387512682*
 관례적으로 데이터는 메모리 주소가 커지는 순서대로 왼쪽에서 오른쪽으로 표시합니다. 이렇게 하면 문자를 주소 순서대로 저장했을 때 ASCII 텍스트도 왼쪽에서 오른쪽으로 읽힙니다.
 
 
-[box]          메모리(16진수) |   ASCII
-주소:      0  1  2  3  4 | 0 1 2 3 4
-데이터:   [color=#ff6680]48[/color] [color=#ffe666]65[/color] [color=#66ff99]6C[/color] [color=#66ccff]6C[/color] [color=#9966ff]6F[/color] | [color=#ff6680]H[/color] [color=#ffe666]e[/color] [color=#66ff99]l[/color] [color=#66ccff]l[/color] [color=#9966ff]o[/color]
+[box]          메모리(16진수)    |   ASCII
+주소:       0  1  2  3  4 | 0 1 2 3 4
+데이터:     [color=#ff6680]48[/color] [color=#ffe666]65[/color] [color=#66ff99]6C[/color] [color=#66ccff]6C[/color] [color=#9966ff]6F[/color] | [color=#ff6680]H[/color] [color=#ffe666]e[/color] [color=#66ff99]l[/color] [color=#66ccff]l[/color] [color=#9966ff]o[/color]
 [/box]
 
 또한 숫자를 쓸 때는 최상위 자릿수를 왼쪽에 두는 것이 관례여서, 십삼은 [color=#ff6680]31[/color]이 아니라 [color=#ff6680]13[/color]으로 씁니다.
@@ -1096,8 +1096,8 @@ $78199387512682*
 이를 고려하면, 0x[color=#66ccff]12[/color][color=#66ff99]34[/color][color=#ffe666]56[/color][color=#ff6680]78[/color] 같은 여러 바이트짜리 숫자를 메모리에 표현하는 가장 직관적인 방법은 다음과 같습니다:
 
 [box]          메모리(16진수)
-주소:        0  1  2  3
-데이터:     [color=#66ccff]12[/color] [color=#66ff99]34[/color] [color=#ffe666]56[/color] [color=#ff6680]78[/color][/box]
+주소:         0  1  2  3
+데이터:       [color=#66ccff]12[/color] [color=#66ff99]34[/color] [color=#ffe666]56[/color] [color=#ff6680]78[/color][/box]
 
 이를 [b]빅 엔디언[/b]이라고 합니다. 큰(상위) 자릿수가 낮은 주소에 저장되기 때문입니다. 
 
@@ -1108,8 +1108,8 @@ $78199387512682*
 이처럼 계산하기에 자연스러운, 최하위 자릿수부터 저장하는 관례를 [b]리틀 엔디언[/b]이라고 합니다. 안타깝게도 리틀 엔디언을 볼 때는 값이 바이트 단위로 묶이고 각 바이트는 관례적인 방향으로 표시되기 때문에 대개 더 헷갈립니다. 따라서 0x[color=#66ccff]12[/color][color=#66ff99]34[/color][color=#ffe666]56[/color][color=#ff6680]78[/color]은 다음과 같이 됩니다:
 
 [box]          메모리(16진수)
-주소:        0  1  2  3
-데이터:     [color=#ff6680]78[/color] [color=#ffe666]56[/color] [color=#66ff99]34[/color] [color=#66ccff]12[/color][/box]
+주소:         0  1  2  3
+데이터:       [color=#ff6680]78[/color] [color=#ffe666]56[/color] [color=#66ff99]34[/color] [color=#66ccff]12[/color][/box]
 
 애초에 숫자와 텍스트를 같은 방향으로 커지게 쓰는 것이 관례였다면, 이 매뉴얼 페이지는 필요 없었을 것입니다.
 
@@ -1409,10 +1409,10 @@ $85471608475185*
 즉시값 비트 [color=#9966ff]1[/color]: [color=#bbbbbb]0[/color][color=#ff9800]MM[/color][color=#9966ff]1[/color][color=#ff6680]OOOO[/color] [color=#ffe666]DDDD[/color][color=#66ff99]AAAA[/color] [color=#66ccff]IIIIIIII IIIIIIII[/color]
 
 [center]
-[color=#ff9800]M[/color] = 모드                [color=#ffe666]D[/color] = 대상 레지스터
-[color=#ff6680]O[/color] = 연산 코드           [color=#66ff99]A[/color] = 레지스터 A          
-[color=#9966ff]0[/color]/[color=#9966ff]1[/color] = 즉시값 모드      [color=#66ccff]B[/color] = 레지스터 B          
-[color=#bbbbbb]0[/color] = 미사용 / 0          [color=#66ccff]I[/color] = 즉시값              
+[color=#ff9800]M[/color] = 모드                 [color=#ffe666]D[/color] = 대상 레지스터
+[color=#ff6680]O[/color] = 연산 코드             [color=#66ff99]A[/color] = 레지스터 A          
+[color=#9966ff]0[/color]/[color=#9966ff]1[/color] = 즉시값 모드         [color=#66ccff]B[/color] = 레지스터 B          
+[color=#bbbbbb]0[/color] = 미사용 / 0            [color=#66ccff]I[/color] = 즉시값              
 [/center]
 
 $74993560224545*
@@ -2230,32 +2230,32 @@ $20029422748716*
 
 [b]표현식 연산자[/b]
 게임에서는 가상 피연산자를 만들 때 쓸 수 있는 연산자를 제한적으로 제공합니다:
-[box]연산자          설명                                     예시          %a = -30000일 때 결과
-!               논리 NOT                                 !%a           0
-&&              논리 AND                                 %a && 7       1
-||              논리 OR                                  %a || 7       1
-\==              같음                                     %a == 7       0
-!=              같지 않음                                %a != 7       1
-<u              부호 없는 미만                           %a <u 7       0
-<               부호 있는 미만                           %a < 7        1
->=u             부호 없는 이상                           %a >=u 7      1
->=              부호 있는 이상                           %a >= 7       0
-<=u             부호 없는 이하                           %a <=u 7      0
-<=              부호 있는 이하                           %a <= 7       1
->u              부호 없는 초과                           %a >u 7       1
->               부호 있는 초과                           %a > 7        0
-~               비트 단위 NOT                            ~%a           29999
-&               비트 단위 AND                            %a & 7        0
-|               비트 단위 OR                             %a | 7        -29993
-^               비트 단위 XOR                            %a ^ 7        -29993
-+               덧셈                                     %a + 7        -29993
--               뺄셈                                     %a - 7        -30007
-*               곱셈                                     %a * 7        -210000
-/u              부호 없는 나눗셈                         %a /u 7       2635249153387074516
-/               부호 있는 나눗셈                         %a / 7        -4285
-%               모듈로 (나눗셈의 나머지)                 %a % 7        -5
-<<              논리 왼쪽 시프트 (LSL)                   %a << 7       -3840000
->>              논리 오른쪽 시프트 (LSR)                 %a >> 7       144115188075855637
+[box]연산자            설명                                      예시           %a = -30000일 때 결과
+!               논리 NOT                                  !%a           0
+&&              논리 AND                                  %a && 7       1
+||              논리 OR                                   %a || 7       1
+\==              같음                                      %a == 7       0
+!=              같지 않음                                  %a != 7       1
+<u              부호 없는 미만                              %a <u 7       0
+<               부호 있는 미만                              %a < 7        1
+>=u             부호 없는 이상                              %a >=u 7      1
+>=              부호 있는 이상                              %a >= 7       0
+<=u             부호 없는 이하                              %a <=u 7      0
+<=              부호 있는 이하                              %a <= 7       1
+>u              부호 없는 초과                              %a >u 7       1
+>               부호 있는 초과                              %a > 7        0
+~               비트 단위 NOT                              ~%a           29999
+&               비트 단위 AND                              %a & 7        0
+|               비트 단위 OR                               %a | 7        -29993
+^               비트 단위 XOR                              %a ^ 7        -29993
++               덧셈                                      %a + 7        -29993
+-               뺄셈                                      %a - 7        -30007
+*               곱셈                                      %a * 7        -210000
+/u              부호 없는 나눗셈                             %a /u 7       2635249153387074516
+/               부호 있는 나눗셈                             %a / 7        -4285
+%               모듈로 (나눗셈의 나머지)                      %a % 7        -5
+<<              논리 왼쪽 시프트 (LSL)                       %a << 7       -3840000
+>>              논리 오른쪽 시프트 (LSR)                     %a >> 7       144115188075855637
 [/box]
 눈에 띄게 빠진 것은 부호 반전(negation) 연산입니다. 하지만 '+'나 '-' 연산자에 첫 번째 피연산자가 없으면 기본적으로 그 자리에 0을 사용하므로, 기존의 빼기 연산자로 부호 반전을 처리할 수 있습니다.
 
@@ -2507,10 +2507,10 @@ $73426457129430*
 즉시값 비트 [color=#9966ff]1[/color]: [color=#bbbbbb]0[/color][color=#ff9800]MM[/color][color=#9966ff]1[/color][color=#ff6680]OOOO[/color] [color=#ffe666]DDDD[/color][color=#66ff99]AAAA[/color] [color=#66ccff]IIIIIIII IIIIIIII[/color]
 
 [center]
-[color=#ff9800]M[/color] = 모드                [color=#ffe666]D[/color] = 대상 레지스터
-[color=#ff6680]O[/color] = 연산 코드           [color=#66ff99]A[/color] = 레지스터 A          
-[color=#9966ff]0[/color]/[color=#9966ff]1[/color] = 즉시값 모드       [color=#66ccff]B[/color] = 레지스터 B          
-[color=#bbbbbb]0[/color] = 미사용 / 0          [color=#66ccff]I[/color] = 즉시값              
+[color=#ff9800]M[/color] = 모드                 [color=#ffe666]D[/color] = 대상 레지스터
+[color=#ff6680]O[/color] = 연산 코드             [color=#66ff99]A[/color] = 레지스터 A          
+[color=#9966ff]0[/color]/[color=#9966ff]1[/color] = 즉시값 모드          [color=#66ccff]B[/color] = 레지스터 B          
+[color=#bbbbbb]0[/color] = 미사용 / 0            [color=#66ccff]I[/color] = 즉시값              
 [/center]
 
 
@@ -2691,7 +2691,7 @@ $28136552692253* 이 원리를 이용하는 배럴 시프터를 구현할 수 �
 
 === campaign/byte_adder/ui.txt ===
 
-$51758065631068* [color=#E49F44][left]자리올림 출력        합[/left][/color]
+$51758065631068* [color=#E49F44][left]자리올림 출력       합[/left][/color]
 
 
 === campaign/bit_switch/meta.txt ===
@@ -2741,7 +2741,7 @@ $29247683714165*
 지금까지 IO 모드에는 명령어가 3개뿐이었지만, 이제 몇 가지를 더 추가할 차례입니다. 갱신된 IO 명령어 목록은 다음과 같습니다:
 [left]
 
-[b]번호   이름     피연산자       설명[/b]
+[b]번호    이름      피연산자         설명[/b]
   0    nop                     아무것도 하지 않음
   1    in       dest           입력
   2    out      src_B          출력
@@ -2870,7 +2870,7 @@ $52274910421610*
 예:
 입력 0 [T][T][F][F][F][T][F][F]
 입력 1 [F][F][F][F][T][T][F][F]
-출력  [T][T][T][T][T][F][T][T]
+출력   [T][T][T][T][T][F][T][T]
 
 
 === campaign/overture_1_registers/default.isa ===
@@ -2953,9 +2953,9 @@ $66929200224494*
 [color=#bbbbbb]0[/color][color=#ff9800]MM[/color][color=#bbbbbb]0[/color][color=#ff6680]OOOO[/color] [color=#ffe666]DDDD[/color][color=#66ff99]AAAA[/color] [color=#bbbbbb]0000[/color][color=#66ccff]BBBB[/color] [color=#bbbbbb]00000000[/color]
 
 [center]
-[color=#ff9800]M[/color] = 모드             [color=#ffe666]D[/color] = 대상 레지스터
-[color=#ff6680]O[/color] = 연산 코드        [color=#66ff99]A[/color] = 피연산자 A           
-[color=#bbbbbb]0[/color] = 미사용 / 0       [color=#66ccff]B[/color] = 피연산자 B           
+[color=#ff9800]M[/color] = 모드              [color=#ffe666]D[/color] = 대상 레지스터
+[color=#ff6680]O[/color] = 연산 코드          [color=#66ff99]A[/color] = 피연산자 A           
+[color=#bbbbbb]0[/color] = 미사용 / 0         [color=#66ccff]B[/color] = 피연산자 B           
 [/center]
 
 
@@ -3173,7 +3173,7 @@ $90224867995967* 조건 일치
 $69772243733094*
 ASCII는 7비트 숫자와 문자 사이의 대응 관계입니다(이 게임의 화면은 8비트인 확장 ASCII를 사용합니다). 
 
-[b]코드  값     설명[/b]
+[b]코드   값      설명[/b]
   0    NUL    
   1    SOH    헤더 시작
   2    STX    텍스트 시작
@@ -3725,7 +3725,7 @@ $16579770195459*
 [center]
 입력 0 [F][T][F][T]
 입력 1 [F][F][T][T]
-출력  [T][T][T][F]
+출력   [T][T][T][F]
 [/center]
 
 "입력"과 "출력"은 대수학처럼 변수 이름으로 표현되는 경우가 많습니다. 또한 색 대신 0/1이나 False/True로 값을 표현하는 경우도 자주 볼 수 있습니다.
@@ -4891,10 +4891,10 @@ $57225943470132*
 즉시값 비트 [color=#9966ff]1[/color]: [color=#bbbbbb]0[/color][color=#ff9800]MM[/color][color=#9966ff]1[/color][color=#ff6680]OOOO[/color] [color=#ffe666]DDDD[/color][color=#66ff99]AAAA[/color] [color=#66ccff]IIIIIIII IIIIIIII[/color]
 
 [center]
-[color=#ff9800]M[/color] = 모드                [color=#ffe666]D[/color] = 대상 레지스터
-[color=#ff6680]O[/color] = 연산 코드            [color=#66ff99]A[/color] = 레지스터 A          
-[color=#9966ff]0[/color]/[color=#9966ff]1[/color] = 즉시값 모드    [color=#66ccff]B[/color] = 레지스터 B          
-[color=#bbbbbb]0[/color] = 미사용 / 0          [color=#66ccff]I[/color] = 즉시값              
+[color=#ff9800]M[/color] = 모드                 [color=#ffe666]D[/color] = 대상 레지스터
+[color=#ff6680]O[/color] = 연산 코드              [color=#66ff99]A[/color] = 레지스터 A          
+[color=#9966ff]0[/color]/[color=#9966ff]1[/color] = 즉시값 모드       [color=#66ccff]B[/color] = 레지스터 B          
+[color=#bbbbbb]0[/color] = 미사용 / 0            [color=#66ccff]I[/color] = 즉시값              
 [/center]
 
 JUMP 모드에서는 [color=#66ff99]레지스터 A[/color]로 지정한 레지스터에 플래그 값이 들어 있습니다. 이 값이 [color=#ff6680]연산 코드[/color]로 지정한 조건을 만족하는지 검사해야 합니다. 비교에는 앞서 만든 "cond" 사용자 정의 컴포넌트를 사용하세요.
@@ -4983,9 +4983,9 @@ F [T][T][T][T]
 
 16진수가 더 명확한 예로, 가장 큰 16비트 숫자의 표현을 비교해 봅시다:
 [left]
-              이진수:      1111111111111111
-              십진수:      65535
-              16진수:      FFFF
+              이진수:        1111111111111111
+              십진수:        65535
+              16진수:       FFFF
 [/left]
 이진수에서 자릿수가 하나 빠졌는지, 십진수가 맞는지는 쉽게 알 수 없지만, 16진수는 바로 알아볼 수 있습니다(적어도 이 표현에 익숙해지면 말이죠).
 
@@ -5382,7 +5382,7 @@ $71466914240996*
 3개의 비트는 아래와 같이 조건을 선택합니다. 선택한 조건에 대해 값을 검사하여, 조건을 만족하면 [T], 아니면 [F]를 출력하세요.
 
 [left]
-             비트 코드:     [T]가 되는 경우:
+             비트 코드:       [T]가 되는 경우:
               [F][F][F]       없음
               [F][F][T]       항상
               [F][T][F]       값 = 0일 때
