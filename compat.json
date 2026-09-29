@@ -1,0 +1,24 @@
+{
+  "game": "Turing Complete",
+  "kind": "turing",
+  "exe": "Turing Complete.exe",
+  "tested_version": "2.1.334",
+  "known_versions": [
+    "8875da0e88cc878cb0fce30cfb63d20c5500cae341608af4d786649b88c8eb21",
+    "6181188e6e3f86ddb38578e389c67149e2065e43a10b04b9a9e42b6e604d1e36"
+  ],
+  "required_hashes": {
+    "asset/font/NoroshiCode_Bold.ttf": "52c95fd196b7212a872d9a938757e6982e5ffd09c1131d8d8fcce7866e4d7c5c",
+    "asset/font/NoroshiCode_Regular.ttf": "772e812787c08f0792095c36d3678292416b1f0c56f09301c64a545466d68cef"
+  },
+  "menu": {
+    "before": "Svenska (3% done)",
+    "after": "한국어(Korean)",
+    "original_sha256": [
+      "8875da0e88cc878cb0fce30cfb63d20c5500cae341608af4d786649b88c8eb21"
+    ],
+    "patched_sha256": [
+      "6181188e6e3f86ddb38578e389c67149e2065e43a10b04b9a9e42b6e604d1e36"
+    ]
+  }
+}
