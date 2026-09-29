@@ -1,15 +1,11 @@
-# Turing Complete 한국어 패치 v2
-
-기존 v1 배포 파일을 대체하는 v2 패치입니다. 파일·설치 검증은 완료했으며, 최종 실행·화면 검수는 사용자가 직접 진행합니다.
-
-**번역과 폰트 폴더를 게임 폴더에 복사하면 한글화가 적용됩니다.** 원본 게임 실행 파일은 ZIP에 포함하지 않습니다.
+# Turing Complete 한국어 패치
 
 대상: Windows Steam판 **2.1.334**. [패치 ZIP 다운로드](https://github.com/zjaha1011/turing-complete-korean-patch/releases/latest)
 
 ## 설치 순서
 
 1. 게임을 완전히 종료합니다.
-2. 릴리스 Assets에서 `TuringComplete-Korean-v2.zip`을 받아 **게임 밖의 폴더**에 모두 압축을 풉니다.
+2. 릴리스 Assets에서 `TuringComplete-Korean.zip`을 받아 **게임 밖의 폴더**에 모두 압축을 풉니다.
 3. Steam → 관리 → 로컬 파일 보기로 게임 폴더를 엽니다. `translations/Swedish.txt`, 기존 `translations/Korean.txt`가 있다면 그 파일, `asset/font/NoroshiCode_Regular.ttf`, `asset/font/NoroshiCode_Bold.ttf`를 별도 폴더에 백업합니다.
 4. ZIP 안의 **Turing Complete 폴더 안에 있는 내용**을 실제 게임 폴더에 복사하고 파일 덮어쓰기를 선택합니다. `translations`와 `asset` 폴더를 모두 복사해야 합니다.
 5. 게임 → **옵션 → 일반 → 언어**에서 **Svenska (3% done)**를 선택합니다. 스웨덴어 슬롯을 한국어로 대체하는 방식이므로 메뉴 이름이 Svenska여도 한국어가 나옵니다. 이미 메뉴 이름 보완을 적용했다면 **한국어(Korean)**를 선택합니다.
@@ -64,4 +60,4 @@ python -X utf8 package.py
 
 `validate.py --english-dir "설치 게임의 원문 번역 폴더"`로 현재 게임의 새 키/삭제된 키도 비교할 수 있습니다. CI는 번역·패처를 검사하고 ZIP을 만듭니다. `v*` 태그를 푸시하면 같은 검사 후 릴리스를 생성합니다. 폰트·외부 구성요소의 출처는 [THIRD_PARTY.md](THIRD_PARTY.md)를 참고하세요.
 
-.
+이 번역은 AI를 활용해 제작되었으며, 완벽하지 않을 수 있습니다.

@@ -10,7 +10,7 @@ assert actual==set(manifest),'Payload contains missing or unexpected files'
 for rel,expected in manifest.items():
  assert hashlib.sha256((root/cfg['game']/rel).read_bytes()).hexdigest()==expected,rel
 out=root/'dist';out.mkdir(exist_ok=True)
-path=out/(cfg['game'].replace(' ','')+'-Korean-v2.zip')
+path=out/(cfg['game'].replace(' ','')+'-Korean.zip')
 with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for p in sorted((root/cfg['game']).rglob('*')):
   if p.is_file():z.write(p,p.relative_to(root))
