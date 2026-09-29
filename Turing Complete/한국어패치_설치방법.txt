@@ -1,8 +1,10 @@
 Turing Complete 한국어 패치 v2
 
+현재 v2는 최종 게임 화면 검증을 기다리는 검토본이며 아직 릴리스되지 않았습니다. 기존 v1 ZIP에는 이 문서의 v2 설치 절차를 적용하지 마세요.
+
 **번역과 폰트 폴더를 게임 폴더에 복사하면 한글화가 적용됩니다.** 원본 게임 실행 파일은 ZIP에 포함하지 않습니다.
 
-대상: Windows Steam판 **2.1.334**. [패치 ZIP 다운로드](https://github.com/zjaha1011/turing-complete-korean-patch/releases/latest)
+대상: Windows Steam판 **2.1.334**. [패치 ZIP 다운로드](https://github.com/zjaha1011/turing-complete-korean-patch/releases/tag/v2.0.0)
 
 설치 순서
 
