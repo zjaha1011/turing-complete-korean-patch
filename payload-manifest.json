@@ -1,8 +1,8 @@
 {
   "asset/font/NoroshiCode-OFL.txt": "a608252964499c931a7bdf2d76f8a71e2d1d9e9610b042d58d853c984dd1eceb",
-  "asset/font/NoroshiCode_Bold.ttf": "52c95fd196b7212a872d9a938757e6982e5ffd09c1131d8d8fcce7866e4d7c5c",
-  "asset/font/NoroshiCode_Regular.ttf": "772e812787c08f0792095c36d3678292416b1f0c56f09301c64a545466d68cef",
-  "translations/Korean.txt": "f8d7720c850ffcde5eb6e913ad0d93d0db719bbaec780b651ce848f1b37d6665",
-  "translations/Swedish.txt": "f8d7720c850ffcde5eb6e913ad0d93d0db719bbaec780b651ce848f1b37d6665",
-  "한국어패치_설치방법.txt": "6b782c42bccbb41c7f9b3edb4c03838453da6f9fd687c0b6ca09155faab5f885"
+  "asset/font/NoroshiCode_Bold.ttf": "3a8dc5882dff5c097c06583a53a5cde840f29c74f9ebd122a9914f0e5b899ba3",
+  "asset/font/NoroshiCode_Regular.ttf": "0d8af12bf2349226e8d73f5b85991171eca2c9ee280634140dfc9c3888435bdb",
+  "translations/Korean.txt": "cf48a5b82491d60659f18d9e67a722a39da2542b81b51cbf2cf494c1130b5fad",
+  "translations/Swedish.txt": "cf48a5b82491d60659f18d9e67a722a39da2542b81b51cbf2cf494c1130b5fad",
+  "한국어패치_설치방법.txt": "cac78bbc99ad41598e46a9d8511010f8dca9f2aceb8503526edc4a27296a1ed1"
 }

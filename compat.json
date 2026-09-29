@@ -8,8 +8,8 @@
     "6181188e6e3f86ddb38578e389c67149e2065e43a10b04b9a9e42b6e604d1e36"
   ],
   "required_hashes": {
-    "asset/font/NoroshiCode_Bold.ttf": "52c95fd196b7212a872d9a938757e6982e5ffd09c1131d8d8fcce7866e4d7c5c",
-    "asset/font/NoroshiCode_Regular.ttf": "772e812787c08f0792095c36d3678292416b1f0c56f09301c64a545466d68cef"
+    "asset/font/NoroshiCode_Bold.ttf": "3a8dc5882dff5c097c06583a53a5cde840f29c74f9ebd122a9914f0e5b899ba3",
+    "asset/font/NoroshiCode_Regular.ttf": "0d8af12bf2349226e8d73f5b85991171eca2c9ee280634140dfc9c3888435bdb"
   },
   "menu": {
     "before": "Svenska (3% done)",
