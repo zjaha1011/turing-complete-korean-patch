@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+_korean_patch_backup/
+_korean_patch_state/
+*.exe
+*.assets
+*.resS
+level[0-9]*
+*.dll
+!Turing Complete/BepInEx/plugins/StationeersKorean/StationeersKorean.dll
+dist/
